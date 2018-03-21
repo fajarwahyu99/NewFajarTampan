@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Basis Data New</string>
+    <string name="search_hint">Whats the movie?</string>
+    <string name="title">MOVIE_TITLE</string>
+    <string name="overview">OVERVIEW</string>
+    <string name="tayang">DATE RELEASE</string>
+    <string name="navigation_title">Now Playing</string>
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+    <string name="action_settings">Change Language?</string>
+    <string name="blank_fragment">Empty</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="up_coming">Up Coming</string>
+    <string name="nowplaying_title">Title_NowPlaying</string>
+    <string name="nowplaying_overview">overview_nowplaying</string>
+    <string name="nowplaying_tayang">tayang_nowplaying</string>
+    <string name="detail">DETAIL</string>
+    <string name="ratings">RATING</string>
+    <string name="search">Search</string>
+    <string name="coco">Coco</string>
+    <string name="favorite">Your Favorite</string>
+    <string name="np_title">np_title</string>
+    <string name="detail_movie">Detail</string>
+
+</resources>
