@@ -1,3 +1,9 @@
+
+/*
+ * Copyright (c) By Fajar Nugraha Wahyu on 3/22/18 10:24 AM 2018.
+ * All rights reserved
+ */
+
 package com.example.infolabsolution.basisdatanew;
 import com.squareup.picasso.Picasso;
 import java.util.LinkedList;

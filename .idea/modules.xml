@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BasisDataNew.iml" filepath="$PROJECT_DIR$/BasisDataNew.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/moduless/providerfavorite.iml" filepath="$PROJECT_DIR$/moduless/providerfavorite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduless/moduless.iml" filepath="$PROJECT_DIR$/moduless/moduless.iml" />
+      <module fileurl="file://C:\Users\infolabsolution\AndroidStudioProjects\BasisDataNew\moduless\providerfavorite.iml" filepath="C:\Users\infolabsolution\AndroidStudioProjects\BasisDataNew\moduless\providerfavorite.iml" />
     </modules>
   </component>
 </project>

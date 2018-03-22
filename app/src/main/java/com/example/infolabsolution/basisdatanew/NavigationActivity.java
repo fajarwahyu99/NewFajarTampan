@@ -1,3 +1,9 @@
+
+/*
+ * Copyright (c) By Fajar Nugraha Wahyu on 3/22/18 10:27 AM 2018.
+ * All rights reserved
+ */
+
 package com.example.infolabsolution.basisdatanew;
 
 
@@ -93,19 +99,17 @@ public class NavigationActivity extends AppCompatActivity
         if (appsdrawer.isDrawerOpen(GravityCompat.START)) {
             appsdrawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            new AlertDialog.Builder(this)
+                    .setMessage("Apakah Anda Yakin Ingin Keluar Aplikasi?")
+                    .setCancelable(false)
+                    .setPositiveButton("Ya", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            NavigationActivity.this.finish();
+                        }
+                    })
+                    .setNegativeButton("Tidak", null)
+                    .show();
         }
-
-        new AlertDialog.Builder(this)
-                .setMessage("Apakah Anda Yakin Ingin Keluar Aplikasi?")
-                .setCancelable(false)
-                .setPositiveButton("Ya", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        NavigationActivity.this.finish();
-                    }
-                })
-                .setNegativeButton("Tidak", null)
-                .show();
     }
 
     private void getFragment(Fragment fragmentTitle, String ActionBarTitle){

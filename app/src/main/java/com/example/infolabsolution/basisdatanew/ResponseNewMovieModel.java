@@ -1,3 +1,9 @@
+
+/*
+ * Copyright (c) By Fajar Nugraha Wahyu on 3/22/18 10:28 AM 2018.
+ * All rights reserved
+ */
+
 package com.example.infolabsolution.basisdatanew;
 
 import com.google.gson.annotations.SerializedName;

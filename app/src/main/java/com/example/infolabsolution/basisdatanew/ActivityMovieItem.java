@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) By Fajar Nugraha Wahyu on 3/22/18 10:24 AM 2018.
+ * All rights reserved
+ */
+
 package com.example.infolabsolution.basisdatanew;
 
 import android.content.DialogInterface;
@@ -17,8 +22,8 @@ import com.squareup.picasso.Picasso;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class ActivityMovieItem extends AppCompatActivity {
 
+public class ActivityMovieItem extends AppCompatActivity {
     CoordinatorLayout coordinatorLayout;
     private HelperFavorite helperFavorite;
     private boolean boolFavorite = false;
